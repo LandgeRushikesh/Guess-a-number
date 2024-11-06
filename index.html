@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess A Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <h1>Guess A Number!!!</h1>
+            <div class="input">
+                <label for="input">Guess A Number:
+                    <input id="ip" type="text" placeholder="Enter a number...">
+                </label>
+                <button class="submit">Submit</button>
+                <button class="replay none">Replay</button>
+            </div>
+            <div class="details">
+                <div class="res">Start the game!!!</div>
+                <div class="attempts">Attempts Remaining:10</div>
+            </div>
+            <div class="rules">
+                <p><u>Rules:</u></p>
+                <p>1. Try to guess the secret number that the computer has randomly selected within a given range (e.g., 1 to 100).</p>
+                <p>2. Type in your guess and submit it.</p>
+                <p>3. You will have a 10 number of attempts, so choose your guesses wisely.</p>
+                <p>4. If you guess the number correctly, you win! Your score will be based on the number of attempts you made.</p>
+                <p>5. If you reach the attempt limit without guessing correctly, the game is over. The secret number will be revealed.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
